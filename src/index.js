@@ -9,6 +9,8 @@ import Evento from './pages/EventoPage.js';
 import MyPrenotazioni from './pages/MyPrenotazioni.js';
 
 function App() {
+  int x = 0;
+  x++;
   return (
     <BrowserRouter>
       <Switch>
