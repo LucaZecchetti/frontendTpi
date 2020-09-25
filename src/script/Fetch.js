@@ -4,7 +4,7 @@ class Fetch{
     static registration(nome, cognome, email, password){
         return(
             new Promise((resolve,reject)=>{
-                resolve(fetch(url+'/utenti',{
+                resolve(fetch(url+'/utenti/login',{
                     method: 'PUT',
                     headers: {'Content-Type':'application/json'},
                     body: JSON.stringify({
