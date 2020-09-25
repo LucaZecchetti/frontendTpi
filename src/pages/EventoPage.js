@@ -84,6 +84,7 @@ class EventoPage extends React.Component{
             minDate: elemento.dataInizio,
             maxDate: elemento.dataFine,
             giorni: giorni,
+            data: undefined,
             });
     }
 
